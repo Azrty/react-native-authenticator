@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Layout from "./Layout";
 import { Dimensions } from "react-native";
 import { RNCamera } from "react-native-camera";
-import { storeData } from "@Lib/storage";
+import { storeData } from "../../lib/storage";
 
 class BarcodeScreen extends Component {
 

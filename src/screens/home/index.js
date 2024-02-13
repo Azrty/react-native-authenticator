@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "./Layout";
-import { retrieveData, storeData } from "@Lib/storage";
+import { retrieveData, storeData } from "../../lib/storage";
 
 class HomeScreen extends Component {
 

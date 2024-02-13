@@ -1,4 +1,7 @@
 {
   "name": "reactnativeotp",
-  "displayName": "reactnativeotp"
+  "displayName": "reactnativeotp",
+  "expo": {
+    "jsEngine": "jsx"
+  }
 }

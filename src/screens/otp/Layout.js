@@ -2,7 +2,7 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from 'react-native';
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
-import { IconText } from '@Components';
+import { IconText } from '../../components';
 import styles from "./style";
 
 const Layout = ({ authCode, progress, remainingTime, logout }) =>

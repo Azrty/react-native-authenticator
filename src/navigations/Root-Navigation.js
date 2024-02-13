@@ -2,9 +2,9 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from '@Screens/home';
-import OtpScreen from '@Screens/otp';
-import BarcodeScreen from '@Screens/barcode';
+import HomeScreen from '../screens/home';
+import OtpScreen from '../screens/otp';
+import BarcodeScreen from '../screens/barcode';
 const Stack = createNativeStackNavigator();
 
 export default function RootNavigation() {

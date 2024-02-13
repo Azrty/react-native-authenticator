@@ -1,7 +1,7 @@
 import React from "react";
 import IconEntypo from "./Icon-Entypo";
 import IconIonicons from "./Icon-Ionicons";
-import IconTypes from "@Lib/icon-types";
+import IconTypes from "../lib/icon-types";
 
 const Icon = ({ type, name, ...props }) => {
     type = (type) ? type : IconTypes.ENTYPO;

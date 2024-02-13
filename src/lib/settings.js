@@ -1,4 +1,4 @@
-import CONSTANTS from "@Lib/constants";
+import CONSTANTS from "./constants.js";
 
 export default {
   authFlowType: CONSTANTS.AUTH_FLOW.NONE,

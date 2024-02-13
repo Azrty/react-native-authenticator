@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Layout from "./Layout";
-import OTP from "@Lib/otp";
-import settings from "@Lib/settings";
-import { storeData, retrieveData } from "@Lib/storage";
+import OTP from "../../lib/otp";
+import settings from "../../lib/settings";
+import { storeData, retrieveData } from "../../lib/storage";
 
 class Home extends Component {
 

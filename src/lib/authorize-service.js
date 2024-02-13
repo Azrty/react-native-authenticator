@@ -1,7 +1,7 @@
 import Auth0 from 'react-native-auth0';
-import CONSTANTS from "@Lib/constants";
-import settings from "@Lib/settings";
-import { storeData, retrieveData } from "@Lib/storage";
+import CONSTANTS from "./constants";
+import settings from "./settings";
+import { storeData, retrieveData } from "./storage";
 
 export const authorize = (authorizeType) => {
   switch (authorizeType) {

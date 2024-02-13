@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from 'react-native';
 import { RNCamera } from "react-native-camera";
-import { IconText } from '@Components';
+import { IconText } from '../../components';
 import styles from "./style";
 
 const PendingView = () =>
